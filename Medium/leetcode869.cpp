@@ -5,6 +5,7 @@ public:
      
     string getsorted(int n){
         string s=to_string(n);
+        sort(s.begin(),s.end());
         return s;
     }
 
